@@ -1,0 +1,29 @@
+Hash Table - is used to store key value pairs
+                Javascript --> Objects
+                Python --> Dictionaries
+                Go --> Maps
+
+Suppose we want to store phone numbers in hash tables
+    john: 55522341
+    alex: 561236576
+    luci: 342435652
+
+To solve this problme we'll be using "hash function"
+
+-------------------------------------------------------------------
+
+Hash Function - A hash function is a tool that takes input data (like a string or number) and turns it into a fixed-size,  which is typically a number. The output is called a "hash." It's like a unique ID for the input data. Hash functions are used to quickly look up data or check if two pieces of data are the same.
+
+Hash Function process -->
+
+1. Input - You feed any kind of data into the hash function, like your name, a setenece, or a whole file
+
+2. Hashing Process - The function performs a series of mathematical operations on the input data, essentially scrambling it in a unique way
+
+3.  Fixed-Size Output - Regardless of the input size, the hash function always spits out a fixed-size value, like a short string of characters or a number
+
+A Hash Function in simple terms takes in a key returns so like some data 
+
+for example. 'keandre'
+
+Then converts that data into a hash which in a more common case, it's going to be a index that is in bounds in our hash table, so then we can take that index, and push our [key, value] at that specific index in our hash table

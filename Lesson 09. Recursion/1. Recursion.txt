@@ -1,0 +1,34 @@
+Recursion - the process when a function calls itself. But it doesn't call itself exactly the same way each time
+
+Recursion Example.
+
+    Russian nesting dolls:
+
+Initially the doll will be wrapped in a box 📦
+
+And once we open that box we have a doll
+
+🎎 
+
+Which then allows us to open that doll, and we have another doll
+
+  🎎          🎎    
+
+Then again 
+
+    🎎          🎎          🎎 
+
+Then finally again
+
+🎎          🎎          🎎          🎎
+
+How does Recursion play a roll in this process ?
+
+The function makes the problem smaller by changing the input a bit. Like finding a smaller doll inside a bigger one.
+
+We have the ability to provide the point to stop execution once our function has met a certain condition, this is called the base case. (The Smallest Doll)
+
+As long as it's not the base case, the function calls itself with the smaller problem
+
+
+

@@ -1,0 +1,77 @@
+Tree - is a fundamental hierarchical or  branching data structure where elements, called nodes, are connected by edges(links), and form a tree like structure
+
+Tree Example.
+
+                                 1 <- PARENT/ROOT
+                                ↙️   ↘️
+CHILD/SIB -> 2              5 <- CHILD/SIB 
+
+
+Keep something in mind if the nodes that come after the root/parent don't have any children nodes then we call those nodes leaf nodes
+
+
+                                 1 
+                                ↙️   ↘️
+                           2            5 
+                          ↙️                 ↘️
+                    LEAF                LEAF
+
+-------------------------------------------------------------------
+
+Full Tree - Each node either has no children (leaf node) or exactly two children
+
+Full Tree Example.
+
+                                   1 
+                                ↙️       ↘️
+                           2                 5 
+                          ↙️  ↘️     LEAF NODE
+                        3      4
+                    TWO CHILDREN
+
+
+-------------------------------------------------------------------
+
+Perfect Tree 
+
+Full + Balance
+
+Balance - All the leaf nodes are at the same depth(distance) from the root. Meaning the tree is completely filled with no gaps at any level.
+
+Perfect Tree Example.
+
+                                   1 
+                                ↙️       ↘️
+                           6                 5 
+
+
+Not a Perfect Tree Example.
+
+                                     1 
+                                ↙️       ↘️
+                           6                 5 
+                        ↙️
+                    7  
+
+This is not a Perfect Tree because not all the leaf nodes are the same distance from the root, because it takes the 7 node 2 nodes to get back to the root, while it takes the 5 node 1 node to get back to the parent, and the 6 node is no longer a leaf node because it has a child node, so remember a node is only a leaf node if it has no children
+
+-------------------------------------------------------------------
+
+Complete Tree 
+
+Almost Full Levels - All levels except possibly the last one are completely filled with nodes
+
+Left Leaning Last Level - The last level is filled with nodes from the left side a much as possible, but there might be empty spaces on the right
+
+Complete Tree Example.
+
+                                    1 
+                                ↙️      ↘️
+                           6                 5 
+                         ↙️ ↘️              ↙️   ↘️
+                        7   8             3    1                
+                     ↙️ ↘️  ↙️↘️         ↙️ ↘️  ↙️↘️
+                    5  2  1  2       4 5  8 7
+
+This is not a Perfect Tree because not all the leaf nodes are the same distance from the root, because it takes the 7 node 2 nodes to get back to the root, while it takes the 5 node 1 node to get back to the parent, and the 6 node is no longer a leaf node because it has a child node, so remember a node is only a leaf node if it has no children
+

@@ -1,0 +1,177 @@
+PROBLEM 1: Find a Student
+
+1. Create an array with 5 student names.
+
+2. Define a function that takes two parameters: allStudents (the array) and studentName (the name to find).
+
+3. Iterate over allStudents.
+
+4. Check if the current student matches studentName.
+
+Return the student if found.
+
+------------------------------------------------------------------
+
+PROBLEM 2: Reverse a String
+
+1. Define a function that takes a string str.
+
+2. Check if the string contains spaces.
+
+3. If true, split the string by spaces, reverse the words, and join them back with spaces.
+
+4. If false, split the string into characters, reverse them, and join them back.
+
+------------------------------------------------------------------
+
+PROBLEM 3: Check for Palindrome
+
+1. Define a function that takes a string string.
+
+2. Create a reversed version of string.
+
+3. Compare the original and reversed strings.
+
+4. Return true if they are the same, otherwise false.
+
+------------------------------------------------------------------
+
+PROBLEM 4: Reverse an Integer
+
+1. Define a function that takes an integer integer.
+
+2. Convert the integer to a string.
+
+3. Split the string into characters, reverse them, and join them back.
+
+4. Convert the result back to an integer and return it.
+
+PROBLEM 5: Capitalize Words
+
+1. Define a function that takes a string str.
+
+2. Convert the string to lowercase.
+
+3. Split the string into words.
+
+4. Capitalize the first letter of each word.
+
+5. Join the words back into a string with spaces.
+
+------------------------------------------------------------------
+
+PROBLEM 6: FizzBuzz
+
+1. Define a function that takes a number n.
+
+2. Loop from 1 to n.
+
+3. Check if the number is divisible by both 3 and 5, print "FizzBuzz".
+
+4. Check if divisible by 3, print "Fizz".
+
+5. Check if divisible by 5, print "Buzz".
+
+6. Print the number if none of the conditions are met.
+
+------------------------------------------------------------------
+
+PROBLEM 7: Max Profit
+
+1. Define a function that takes an array of prices.
+
+2. Initialize variables to track minimum price and maximum profit.
+
+3. Loop through the prices.
+
+4. Update the minimum price and calculate current profit.
+
+5. Update the maximum profit if current profit is higher.
+
+6. Return the maximum profit.
+
+------------------------------------------------------------------
+
+PROBLEM 8: Array Chunk
+
+1. Define a function that takes an array and a chunk size.
+Initialize an empty results array.
+
+2.Calculate the chunk size based on the length of the array and the chunk size.
+
+3.Loop through the array in increments of chunk size.
+
+4.Slice the array into chunks and add them to the results array.
+Return the results array.
+
+------------------------------------------------------------------
+
+PROBLEM 9: Two Sum
+
+1. Define a function that takes an array and a target number.
+
+2. Loop through each element in the array.
+
+3. Nested loop to check for the sum of two elements matching the target.
+
+4. Return the indices of the two numbers if found.
+
+------------------------------------------------------------------
+
+PROBLEM 10: Valid Parentheses
+
+1. Define a function that takes a string str.
+
+2. Check if the string contains valid pairs of parentheses.
+
+3. Use a stack to track opening brackets.
+
+4. Iterate through the string and handle closing brackets.
+
+5. Return true if all brackets are matched, otherwise false.
+
+------------------------------------------------------------------
+
+PROBLEM 11: Reverse String Using Stack
+
+1. Define a function that takes a string str.
+
+2. Initialize an empty stack.
+
+3. Push each character of the string onto the stack.
+
+4. Pop characters from the stack and append to a new string.
+
+5. Return the reversed string.
+
+------------------------------------------------------------------
+
+PROBLEM 12: Word Counter
+
+1. Define a function that takes a string str.
+
+2. Convert the string to lowercase and split into words.
+
+3. Initialize an empty object to store word counts.
+
+4. Count occurrences of each word.
+
+5. Return the object with word counts.
+
+------------------------------------------------------------------
+
+PROBLEM 13: Two Sum Refactored
+
+1. Define a function that takes an array and a target number.
+
+2. Initialize an empty object to track indices of numbers.
+
+3. Loop through each element in the array.
+
+4. Calculate the compliment needed to reach the target.
+
+5. Check if the compliment exists in the object.
+
+6. Return the indices if the pair is found.
+
+------------------------------------------------------------------

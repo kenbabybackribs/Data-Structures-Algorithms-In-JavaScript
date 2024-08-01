@@ -1,0 +1,89 @@
+Tree traversal refers to the process of visiting each node in a tree data structure in a specific order, then storing it in some kind of array
+
+
+Tree Traversal Types.
+
+Breadth First Search -  is  a way to traverse all the nodes in a tree or graph, add them to a queue, and take their data
+
+BFS in Simple Steps
+
+1. Put Root Node in a Queue
+
+2. Take the node from the front of the queue (currently the root node), process it (which means take it's value and place it in your data array), and then add its neighbors to the queue(left, and right).
+
+3. Repeat: Continue by taking the next node from the front of the queue and repeat until the queue is empty.
+
+ 1.                5                 Queue
+                 ↙️    ↘️          [  5         ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [            ]
+
+ 2.                5                 Queue
+                 ↙️    ↘️          [  5         ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [ 5           ]
+
+3.                 5                 Queue
+                 ↙️    ↘️          [  3,   8         ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [ 5           ]
+
+4.                 5                 Queue
+                 ↙️    ↘️          [  3,   8         ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [ 5, 3, 8   ]
+
+5.                 5                 Queue
+                 ↙️    ↘️          [  1          ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [ 5 3 8   ]
+
+6.                5                 Queue
+                 ↙️    ↘️          [  7 9          ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [ 5, 3, 8, 1   ]
+
+7.                5                 Queue
+                 ↙️    ↘️          [            ]
+                3       8
+              ↙️       ↙️  ↘️          Data
+            1         7     9     [ 5, 3, 8,  1,  7, 9  ]
+
+
+-------------------------------------------------------------------
+
+Depth First Search  (PreOrder) - a way to visit all the nodes in a tree or graph. "Pre-order" means you visit a node before its children. Think of it as a way to explore a tree by diving deep into one branch before moving to another branch.
+
+How Does Pre-Order Traversal Work?
+
+1. Visit the Root Node: Start at the current node (the root or any node you’re currently at). Visit it first.
+
+2. Explore the Left Subtree: Move to the left child node of the current node, and repeat the process from step 1.
+
+3. Explore the Right Subtree: After finishing with the left subtree, move to the right child node of the current node, and repeat the process from step 1.
+
+
+DFS Pre-Order Example.
+
+                                                A
+                                              / \
+                                            B   C
+                                          / \
+                                        D   E
+
+1. Visit A: Start at A, visit it.
+
+2. Move to B: Go to B (left child of A), visit B.
+
+3. Move to D: Go to D (left child of B), visit D. (D has no children)
+
+4. Move to E: Go to E (right child of B), visit E. (E has no children)
+
+5. Move to C: Return to A and move to C 
+(right child of  A), visit C. (C has no children)
