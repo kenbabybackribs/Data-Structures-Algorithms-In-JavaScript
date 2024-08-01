@@ -1,0 +1,74 @@
+Big O  notation - helps us understand how long (time complexity) an algorithm will take to run or how much (space complexity)  memory it will need as the amount of data it handles grows
+
+time complexity, and space complexity makeup the Big O
+
+Big O Example. Imagine you have a giant mess to clean. Big O notation is like saying how the cleaning time grows as the mess gets bigger.
+
+-------------------------------------------------------------------
+
+O(n) - signifies that execution time of the algorithm grows  in proportion to the data size 
+
+O(n) Example. As the number of items in the input data increases, the time it takes for the algorithm execution time grows quadratically with the size of the input data (represented by n). to run increases correspondingly
+
+Another O(n) Example. Imagine you have a list of groceries. To find a specific item (like milk), you might need to scan through the entire list. If the list has 5 items, it'll take a relatively short time. But if the list has 500 items, it'll take considerably longr. This is the essence of linear time complexity
+
+Array O(n) Example. 
+["eggs", "bread", "strawberry", "milk", "bananas"], 
+If you wanted to search, for a certain item in this list the time complexity of this algorithm will not take very long, but has our data grows so does the time it takes to execute
+
+-------------------------------------------------------------------
+
+O(1) - aka constant time, signifies that the execution time of an algorithm remains, constant regardless of the data size
+
+O(1) Example. Imagine you have a box filled with items, and you know exactly where each item is located. To get a specific item, you go directly to its location, taking the same amount of time, without caring how many items are in the box
+
+Array O(1) Example. 
+["eggs", "bread", "strawberry", "milk", "bananas"],
+If you wanted to search, for milk for an example, it does not matter if our data grows or shrinks we know exactly where milk is 
+so we go exactly to the milk taking the same amount of time constantly
+
+-------------------------------------------------------------------
+
+O(n^2) - signifies that the algorithm execution time grows quadratically based the size of the data,  which means as the data increases the amount of time, and memory needed increases by square the root of the data
+
+O(n^2) Example. Imagine you have a box of items, and want to compare each item with every other item to find specific pairs. As the number of items (n) increases, the number of comparisons (n ^2) grows much faster
+
+-------------------------------------------------------------------
+
+O(log n)  - signifies that as the size of the data grows, the time or effort needed only grows very slowly
+
+Array O(log n) Example. 
+[1, 2, 3, 4, 5, 6, 7 ,8]
+Lets say we wanted to search for this firt item inside this array, we can use something called the divide and conquer which essentially just means to break down. So we will divide the array by two like this 
+
+[1,2,3,4]               [5,6,7,7]
+
+Once we do that we are going to use a if statment to check if the item we are looking for in the first half or the second half, and then get rid of the half it's not in like this
+
+[1,2,3,4]
+
+Then once again we are going to divide this array again to searching what side are item is in like this
+
+[1,2]                   [3,4]
+
+Then get rid of the side that the item is not in like this
+
+[1,2]
+
+So now we only have two items, so we divide and conquer for a final time to check which side are item is on and get rid of the one it's not like this
+
+[1]
+
+So then since we did 3 operations meaning we had to divide and conquer 3 times to find the item we ere looking for the log formula would look something like 
+log²  8 = 3
+because we had 8 items in our list, and it took 3 operations to find our item, so it would look like
+2 to the what power equals 8
+
+
+
+
+
+
+
+
+

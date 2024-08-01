@@ -1,0 +1,37 @@
+Stack -  linear data structure that follows LIFO, or (Last in, First Out) principle
+
+Stack Example.
+                                 Lets say we have list of books
+book 1, 
+book 2,
+book 3,
+book 4
+
+When then want to stack each of our books in a bookshelf with one on top of the other
+
+book 4,
+book 3,
+book 2,
+book 1
+
+If we then wanted to get the first book back we would have to take all the books on top of book 1 to get it
+
+            book 4, ---> took book 4 off the bookshelf
+            book 3, ----> took book 3 off the bookshelf
+            book 2, ----- > took book 2 off the bookshelf
+book 1 ---> found book one
+
+book 1 is considered the last in because after taking all the books off of it, it is the last book in the stack
+
+book 4 is considered the first out because it's the first book to be popped off the stack
+
+
+Just liked linked list stack nodes  contain a reference and a value         
+
+First Out ---> 4
+                            3
+                            2
+Last In ---->    1
+
+
+

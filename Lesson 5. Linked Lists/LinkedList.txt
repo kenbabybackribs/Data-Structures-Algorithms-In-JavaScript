@@ -1,0 +1,46 @@
+Linked List - a linear data structure where elements better know as nodes, are not stored contiguously in memory. instead, each node contains data and a reference, or link, to the next node in the sequence
+
+1 ---> 2 ---> 3 ---> 4 ---> null
+
+So each number is a node that contains data and the reference to the node so once we have no more nodes the last one points to null
+
+A node is basically and object and holds two properties, the data and the reference to the next node
+
+
+    1 ----> references the next node - 2 -----> references next node - null
+data                                                           data
+
+In Linked List the first element is called the HEAD and the last element is called the TAIL
+
+HEAD                        TAIL
+
+    1 ---> 2 ---> 3 ---> 4 ---> null
+    
+     -------------------------------------------------------------------
+
+    And this entire thing is called a Singly Linked List
+
+        SINGLY LINKED LIST
+
+                    next node
+         1           ---->
+     value
+
+     -------------------------------------------------------------------
+
+    And then a Doubly Linked List is similar to the the singly linked list but the difference is it contains another property which references the 
+    previous node 
+
+-------------------------------------------------------------------
+
+    DOUBLY LINKED LIST
+
+                                        next node
+        <----               1           ---->
+   prev node     value
+   
+   -------------------------------------------------------------------
+
+
+
+

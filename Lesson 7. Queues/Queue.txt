@@ -1,0 +1,11 @@
+Queue - a linear data structure that functions like a waiting line. It follows the FIFO (First In, First Out) principle, meaning the element that enters the queue first will be the first one to be out of the queue
+
+Queue Example.
+                            Imagine you have a line of people waiting to get in a store
+🧍‍♀️🧍‍♂️🧍‍♀️🧍‍♂️🧍‍♂️ ------>  🏬
+                     ^
+                This person will be the first person to get in the store and purchase and item, and be the first one to leave because they were the first person in line
+
+"First In, First Out"
+
+adding to the queue is kown as enqueueing, and removing from the queue is knwon as  dequeueing

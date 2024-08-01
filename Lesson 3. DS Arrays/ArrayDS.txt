@@ -1,0 +1,2 @@
+Array DS - a ordered collection of elements that can be accessed using a numerical index
+
