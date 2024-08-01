@@ -149,6 +149,6 @@ git clone https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScri
 
 ```
 
-Made with ❤️ by [Keandre Miller](https://github.com/igoplusultra)
+Made with ❤️ by [Keandre Miller](https://instagram.com/capchroniclesss)
 
 
