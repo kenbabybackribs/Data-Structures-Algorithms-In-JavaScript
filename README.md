@@ -131,6 +131,24 @@ This repository is licensed under the [MIT License](LICENSE). See the [LICENSE](
 
 ---
 
+## 🛠️ Installation
+
+To get started with this repository and run the code locally, follow these steps:
+
+### Prerequisites
+
+- **Node.js**: Ensure Node.js is installed on your machine. Download it from [nodejs.org](https://nodejs.org/).
+
+### Cloning the Repository
+
+Clone the repository to your local machine using Git:
+
+```bash
+
+git clone https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript.git
+
+```
+
 Made with ❤️ by [Keandre Miller](https://github.com/igoplusultra)
 
 
