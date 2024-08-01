@@ -9,7 +9,7 @@
 
 Welcome to the **Data Structures & Algorithms in JavaScript** repository, course by **Keandre Miller**! This repository offers a **comprehensive, in-depth guide** designed to master the core data structures and algorithms crucial for technical excellence in JavaScript.
 
-### 🚀 Why This Repository?
+### 🍻 Why This Repository?
 
 - **Thorough Explanations:** Dive deep into each data structure and algorithm with detailed explanations.
 - **Practical Implementations:** Access real-world examples and practical challenges.
@@ -23,23 +23,21 @@ Welcome to the **Data Structures & Algorithms in JavaScript** repository, course
 
 ## 📚 Table of Contents
 
-- [Overview](#overview)
-- [Big O Notation](#big-o-notation)
-- [Arrays](#arrays)
-- [Linked Lists](#linked-lists)
-- [Stacks](#stacks)
-- [Queues](#queues)
-- [Hash Tables](#hash-tables)
-- [Binary Search Trees (BST)](#binary-search-trees-bst)
-- [Recursion](#recursion)
-- [Tree Traversal](#tree-traversal)
-- [Graphs](#graphs)
-- [Sorting Algorithms](#sorting-algorithms)
-- [Coding Interview Challenges](#coding-interview-challenges)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%201.%20What%20is%20DSA%3F)
+- [Big O Notation](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%202.%20BigO)
+- [Arrays](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%203.%20DS%20Arrays)
+- [Linked Lists](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%205.%20Linked%20Lists)
+- [Stacks](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%206.%20Stacks)
+- [Queues](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%207.%20Queues)
+- [Hash Tables](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%208.%20Hash%20Tables)
+- [Binary Search Trees (BST)](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%209.%20BST)
+- [Recursion](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2010.%20Recursion)
+- [Tree Traversal](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2011.%20Tree%20Traversal)
+- [Graphs](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2012.%20Graphs)
+- [Sorting Algorithms](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2013.%20Sort)
+- [Coding Interview Challenges](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%204.%20Challenges)
 
-## 🚀 Overview
+## 🍻 Overview
 
 This repository serves as a robust resource for mastering data structures and algorithms in JavaScript. Featuring comprehensive explanations, practical examples, and challenging problems, it is tailored to enhance your coding skills and prepare you for technical interviews.
 
@@ -115,21 +113,16 @@ This repository serves as a robust resource for mastering data structures and al
 ## 💻 Coding Interview Challenges
 
 Practice popular coding interview challenges with solutions and explanations:
+
 - Arrays and Strings
 - Linked Lists
 - Trees and Graphs
 - Dynamic Programming
 - Recursion
 
-## 🤝 Contributing
+## 🙆‍♂️ Contributing
 
 We welcome contributions from the community! If you have suggestions, improvements, or new algorithms to add, please open an issue or submit a pull request. Be sure to follow the repository's coding standards and guidelines.
-
-## 📝 License
-
-This repository is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for more details.
-
----
 
 ## 🛠️ Installation
 
@@ -149,6 +142,4 @@ git clone https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScri
 
 ```
 
-Made with ❤️ by [Keandre Miller](https://github.com/igoplusultra)
-
-
+Made with ❤️ by [Keandre Miller](https://instagram.com/capchroniclesss)
