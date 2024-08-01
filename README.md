@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/3dc1593a-523b-45dc-8ca2-91196098609e" width="100%" >
+<p align="center"><img src="https://github.com/user-attachments/assets/2d84ddb6-2bef-4dc2-8846-77f221fbe86a" width="45%" ></p>
 
 # Data Structures & Algorithms in JavaScript
 
