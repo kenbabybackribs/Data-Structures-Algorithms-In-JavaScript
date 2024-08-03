@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/igoplusultra/Data-Structures-Algorithms-In-JavaScript)](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/stargazers)
 [![GitHub license](https://img.shields.io/github/license/igoplusultra/Data-Structures-Algorithms-In-JavaScript)](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/blob/master/LICENSE)
 
-Welcome to the **Data Structures & Algorithms in JavaScript** repository, course by **Keandre Miller**! This repository offers a **comprehensive, in-depth guide** designed to master the core data structures and algorithms crucial for technical excellence in JavaScript.
+Welcome to the **Data Structures & Algorithms in JavaScript** repository, course by **[HuXn WebDev](https://www.youtube.com/@huxnwebdev)**, and very thorough notes take by **Keandre Miller** This repository offers a **comprehensive, in-depth guide** designed to master the core data structures and algorithms crucial for technical excellence in JavaScript.
 
 ### 🍻 Why This Repository?
 
@@ -23,19 +23,18 @@ Welcome to the **Data Structures & Algorithms in JavaScript** repository, course
 
 ## 📚 Table of Contents
 
-- [Overview](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%201.%20What%20is%20DSA%3F)
-- [Big O Notation](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%202.%20BigO)
-- [Arrays](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%203.%20DS%20Arrays)
-- [Linked Lists](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%205.%20Linked%20Lists)
-- [Stacks](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%206.%20Stacks)
-- [Queues](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%207.%20Queues)
-- [Hash Tables](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%208.%20Hash%20Tables)
-- [Binary Search Trees (BST)](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%209.%20BST)
-- [Recursion](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2010.%20Recursion)
-- [Tree Traversal](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2011.%20Tree%20Traversal)
-- [Graphs](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2012.%20Graphs)
-- [Sorting Algorithms](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2013.%20Sort)
-- [Coding Interview Challenges](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%204.%20Challenges)
+- [Overview](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2001.%20What%20is%20DSA%3F)
+- [Big O Notation](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2002.%20BigO)
+- [Arrays](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2003.%20DS%20Arrays)
+- [Linked Lists](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2004.%20Linked%20Lists)
+- [Stacks](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2005.%20Stacks)
+- [Queues](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2006.%20Queues)
+- [Hash Tables](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2007.%20Hash%20Tables)
+- [Trees](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2008.%20Trees)
+- [Recursion](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2009.%20Recursion)
+- [Graphs](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2010.%20Graph)
+- [Sorting Algorithms](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Lesson%2011.%20Sorting)
+- [Coding Interview Challenges](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/tree/master/Challenges)
 
 ## 🍻 Overview
 
