@@ -17,12 +17,26 @@ class Queue {
 
   // Method to add a node to the end of the queue
   enqueue(data) {
-    // Implement enqueue
+    // TODO: Create a new node with the given data
+    // TODO: If the queue is empty
+    // TODO: Set first to the new node
+    // TODO: Set last to the new node
+    // TODO: Increment the length of the queue
+    // TODO: Return the updated queue
+    // TODO: Link the current last node to the new node
+    // TODO: Update last to the new node
+    // TODO: Increment the length of the queue
+    // TODO: Return the updated queue
   }
 
   // Method to remove a node from the beginning of the queue
   dequeue() {
-    // Implement dequeue
+    // TODO: If the queue is empty, return null
+    // TODO: Update first to the next node
+    // TODO: Decrement the length of the queue
+    // TODO: If the queue is now empty
+    // TODO: Set last to null
+    // TODO: Return the updated queue
   }
 }
 

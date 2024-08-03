@@ -1,0 +1,71 @@
+Insertion Sort - a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much like sorting playing cards in your hands. The algorithm works by dividing the list into a sorted and an unsorted region. It repeatedly takes the first unsorted element and inserts it into the correct position within the sorted region.
+
+-----------------------------------------
+
+How Insertion Sort Works:
+
+1. Start with the Second Element: Consider the first element of the list as the sorted portion.
+
+2. Take the Next Element: Take the next element from the unsorted portion.
+
+3. Insert into Sorted Portion: Insert this element into the correct position in the sorted portion by shifting larger elements to the right.
+
+4. Repeat: Continue this process until all elements are inserted into the sorted portion.
+
+-----------------------------------------
+
+Insertion Sort Example. 
+
+First Pass (Element 25):
+
+1. Consider 25 (second element) and compare it with 64 (first element in the sorted portion).
+
+2. 25 is less than 64, so insert 25 before 64.
+
+3. List becomes: [25, 64, 12, 22, 11]
+
+
+
+Second Pass (Element 12):
+
+1. Consider 12 and compare it with 64 (first element in the sorted portion).
+
+2. 12 is less than 64, so move 64 to the right.
+
+3. Compare 12 with 25, and 12 is less than 25, so move 25 to the right.
+
+4. Insert 12 at the correct position.
+
+5. List becomes: [12, 25, 64, 22, 11]
+
+
+
+Third Pass (Element 22):
+
+1. Consider 22 and compare it with 64.
+
+2. 22 is less than 64, so move 64 to the right.
+
+3. Compare 22 with 25, and 22 is less than 25, so move 25 to the right.
+
+4. Insert 22 at the correct position.
+
+5. List becomes: [12, 22, 25, 64, 11]
+
+
+
+Fourth Pass (Element 11):
+
+1. Consider 11 and compare it with 64.
+
+2. 11 is less than 64, so move 64 to the right.
+
+3. Compare 11 with 25, and 11 is less than 25, so move 25 to the right.
+
+4. Compare 11 with 22, and 11 is less than 22, so move 22 to the right.
+
+5. Compare 11 with 12, and 11 is less than 12, so move 12 to the right.
+
+6. Insert 11 at the correct position.
+
+7. List becomes: [11, 12, 22, 25, 64]

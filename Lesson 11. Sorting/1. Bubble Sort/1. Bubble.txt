@@ -1,0 +1,51 @@
+Bubble Sort -  a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted
+
+----------------------------------------------------
+
+How Bubble Sort Works:
+1. Compare Adjacent Elements: Start with the first two elements in the list. If the first element is greater than the second, swap them.
+
+2. Move to Next Pair: Move to the next pair of adjacent elements and repeat the comparison and swap if necessary.
+
+3. Repeat: Continue this process for the entire list. After each pass through the list, the largest unsorted element will have "bubbled" up to its correct position.
+
+4. Reduce Range: Reduce the range of the list to be sorted by excluding the last element (as it is now in its correct position) and repeat the process until the range is reduced to one element.
+
+----------------------------------------------------
+
+Bubble Sort Example.
+
+Let's sort the list [5, 3, 8, 4, 2] using bubble sort.
+
+
+First Pass:
+
+1. Compare 5 and 3: Swap them. List becomes [3, 5, 8, 4, 2].
+
+2. Compare 5 and 8: No swap needed. List remains [3, 5, 8, 4, 2].
+
+3. Compare 8 and 4: Swap them. List becomes [3, 5, 4, 8, 2].
+
+4. Compare 8 and 2: Swap them. List becomes [3, 5, 4, 2, 8].
+
+
+
+Second Pass:
+
+1. Compare 3 and 5: No swap needed. List remains [3, 5, 4, 2, 8].
+
+2. Compare 5 and 4: Swap them. List becomes [3, 4, 5, 2, 8].
+
+3. Compare 5 and 2: Swap them. List becomes [3, 4, 2, 5, 8].
+
+
+
+Third Pass:
+
+1. Compare 3 and 4: No swap needed. List remains [3, 4, 2, 5, 8].
+
+2. Compare 4 and 2: Swap them. List becomes [3, 2, 4, 5, 8].
+
+Fourth Pass:
+
+1. Compare 3 and 2: Swap them. List becomes [2, 3, 4, 5, 8].

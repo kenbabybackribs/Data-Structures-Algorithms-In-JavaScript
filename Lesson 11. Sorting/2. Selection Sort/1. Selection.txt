@@ -1,0 +1,77 @@
+Selection Sort -  a straightforward sorting algorithm that works by repeatedly selecting the smallest (or largest, depending on sorting order) element from the unsorted portion of the list and moving it to the end of the sorted portion
+
+----------------------------------------------------
+
+How Selection Sort Works:
+
+1. Start with the First Element: Begin with the first element of the list and assume it is the minimum.
+
+2. Find the Minimum Element: Scan the rest of the list to find the smallest element.
+
+3. Swap: Swap the smallest element found with the first element.
+
+4. Move to the Next Position: Move to the next position in the list and repeat the process, treating the sorted portion as complete.
+
+5. Repeat: Continue this process until the entire list is sorted.
+
+----------------------------------------------------
+
+Selection Sort Example. 
+
+Let's sort the list [64, 25, 12, 22, 11] using selection sort.
+
+First Pass:
+
+            1. Assume the first element 64 is the minimum.
+
+            2. Scan the list from index 1 to 4 to find the minimum element:
+
+3. Compare 64 with 25: 25 is smaller.
+
+4. Compare 25 with 12: 12 is smaller.
+
+5. Compare 12 with 22: 12 remains the smallest.
+
+6. Compare 12 with 11: 11 is smaller.
+
+7. 64 with 11. List becomes [11, 25, 12, 22, 64].
+
+
+
+Second Pass:
+
+                1. Assume the second element 25 is the minimum.
+
+                2. Scan the list from index 2 to 4 to find the minimum element:
+
+3. Compare 25 with 12: 12 is smaller.
+
+4. Compare 12 with 22: 12 remains the smallest.
+
+5 .Compare 12 with 64: 12 remains the smallest.
+
+7. Swap 25 with 12. List becomes [11, 12, 25, 22, 64].
+
+
+
+Third Pass:
+
+
+            1. Assume the third element 25 is the minimum.
+
+            2. Scan the list from index 3 to 4 to find the minimum element:
+
+3. Compare 25 with 22: 22 is smaller.
+
+4. Compare 22 with 64: 22 remains the smallest.
+
+4. Swap 25 with 22. List becomes [11, 12, 22, 25, 64].
+
+
+
+Fourth Pass:
+
+1. Assume the fourth element 25 is the minimum.
+
+2. There are no elements left to compare. The list remains [11, 12, 22, 25, 64].
+

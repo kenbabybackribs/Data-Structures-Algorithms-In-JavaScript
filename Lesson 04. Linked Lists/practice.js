@@ -20,62 +20,91 @@ class SinglyLinkedList {
 
   // Method to add a node to the end of the list
   push(value) {
-    // Implement push
+    // TODO: Create a new node with the given value
+    // TODO: If the list is empty, set head and tail to the new node
+    // TODO: Otherwise, link the current tail node to the new node
+    // TODO: Update the tail to the new node
+    // TODO: Increment the length of the list
   }
 
   // Method to remove a node from the end of the list
   pop() {
-    // Implement pop
+    // TODO: If the list is empty, return null
+    // TODO: If there's only one node, set head and tail to null
+    // TODO: Otherwise, iterate to find the second-to-last node
+    // TODO: Update the tail to the second-to-last node
+    // TODO: Set the new tail's next to null
+    // TODO: Decrement the length of the list
   }
 
   // Method to add a node to the beginning of the list
   unshift(value) {
-    // Implement unshift
+    // TODO: Create a new node with the given value
+    // TODO: If the list is empty, set head and tail to the new node
+    // TODO: Otherwise, link the new node to the current head
+    // TODO: Update head to the new node
+    // TODO: Increment the length of the list
   }
 
   // Method to remove a node from the beginning of the list
   shift() {
-    // Implement shift
+    // TODO: If the list is empty, return null
+    // TODO: If there's only one node, set head and tail to null
+    // TODO: Otherwise, update head to the next node
+    // TODO: Decrement the length of the list
   }
 
   // Method to get the first node (head) of the list
   getFirstNode() {
-    // Implement getFirstNode
+    // TODO: Return the head node
   }
 
   // Method to get the last node (tail) of the list
   getLastNode() {
-    // Implement getLastNode
+    // TODO: Return the tail node
   }
 
   // Method to get a node by its index in the list
   getIndex(index) {
-    // Implement getIndex
+    // TODO: Check if the index is out of bounds; if so, return null
+    // TODO: Iterate through the list to find the node at the given index
+    // TODO: Return the node at the given index
   }
 
   // Method to update the value of a node at a given index
   set(index, value) {
-    // Implement set
+    // TODO: Check if the index is out of bounds; if so, return null
+    // TODO: Iterate through the list to find the node at the given index
+    // TODO: Update the node's data to the new value
   }
 
   // Method to insert a node at a given index
   insert(value, index) {
-    // Implement insert
+    // TODO: Check if the index is out of bounds; if so, return null
+    // TODO: If inserting at the beginning, use unshift
+    // TODO: If inserting at the end, use push
+    // TODO: Otherwise, iterate to find the position before the given index
+    // TODO: Create a new node with the given value
+    // TODO: Link the new node between the previous node and the next node
+    // TODO: Increment the length of the list
   }
 
   // Method to get the size of the list
   getSize() {
-    // Implement getSize
+    // TODO: Return the length of the list
   }
 
   // Method to clear the list
   clear() {
-    // Implement clear
+    // TODO: Set head and tail to null
+    // TODO: Set length to 0
   }
 
   // Method to reverse the list
   reverseLinkedList() {
-    // Implement reverseLinkedList
+    // TODO: Initialize previous and current pointers
+    // TODO: Iterate through the list, reversing the direction of each node's `next` reference
+    // TODO: Update head and tail references to point to the new head and tail
   }
 }
 
@@ -105,32 +134,54 @@ class DoublyLinkedList {
 
   // Method to create a new node
   createNewNode(node) {
-    // Implement createNewNode
+    // TODO: Create and return a new DoubleNode with the provided data
   }
 
   // Method to add a node to the end of the list
   push(node) {
-    // Implement push
+    // TODO: Create a new node with the provided data
+    // TODO: If the list is empty, set head and tail to the new node
+    // TODO: Otherwise, link the current tail node to the new node
+    // TODO: Link the new node back to the current tail node
+    // TODO: Update tail to the new node
+    // TODO: Increment the length of the list
   }
 
   // Method to remove a node from the end of the list
   pop() {
-    // Implement pop
+    // TODO: If the list is empty, return null
+    // TODO: If there's only one node, set head and tail to null
+    // TODO: Otherwise, update tail to the previous node
+    // TODO: Update the new tail's next to null
+    // TODO: Remove the link from the previous node to the removed node
+    // TODO: Decrement the length of the list
   }
 
   // Method to add a node to the beginning of the list
   unshift(node) {
-    // Implement unshift
+    // TODO: Create a new node with the provided data
+    // TODO: If the list is empty, set head and tail to the new node
+    // TODO: Otherwise, link the new node to the current head node
+    // TODO: Link the current head node back to the new node
+    // TODO: Update head to the new node
+    // TODO: Increment the length of the list
   }
 
   // Method to remove a node from the beginning of the list
   shift() {
-    // Implement shift
+    // TODO: If the list is empty, return null
+    // TODO: If there's only one node, set head and tail to null
+    // TODO: Otherwise, update head to the next node
+    // TODO: Update the new head's previous to null
+    // TODO: Remove the link from the new head to the old head
+    // TODO: Decrement the length of the list
   }
 
   // Method to reverse the list
   reverseLinkedList() {
-    // Implement reverseLinkedList
+    // TODO: Initialize previous and current pointers
+    // TODO: Iterate through the list, reversing the direction of each node's `next` and `prev` references
+    // TODO: Update head and tail references to point to the new head and tail
   }
 }
 

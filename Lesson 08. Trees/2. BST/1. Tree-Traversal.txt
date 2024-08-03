@@ -56,7 +56,7 @@ BFS in Simple Steps
             1         7     9     [ 5, 3, 8,  1,  7, 9  ]
 
 
--------------------------------------------------------------------
+------------------------------------------------------------------
 
 Depth First Search  (PreOrder) - a way to visit all the nodes in a tree or graph. "Pre-order" means you visit a node before its children. Think of it as a way to explore a tree by diving deep into one branch before moving to another branch.
 
@@ -87,3 +87,54 @@ DFS Pre-Order Example.
 
 5. Move to C: Return to A and move to C 
 (right child of  A), visit C. (C has no children)
+
+
+Depth First Search  (PostOrder) - a method for exploring all nodes in a tree or graph. The difference between Pre and Post is with Post we do not store the root node in the beginning, and instead of processing node from top to bottom we do it from bottom to top, traverse to the last node of a side of the tree then take that node, then move back up, and add each node as we go up then do the same thing for the right side then finally take the root node
+
+------------------------------------------------------------------
+
+Depth First Search (In Order) - a way to explore a binary tree where you visit nodes in a specific sequence. Here’s how it works in the simplest terms:
+
+Depth First Search (In-Order) Explained
+1. Start at the Root: Begin at the root of the tree.
+
+2. Explore Left Subtree: Move to the left child of the current node. Repeat this step until you reach the leftmost node.
+
+3. Visit the Current Node: Once you can't go left anymore, visit (or process) the current node.
+
+4. Explore Right Subtree: Move to the right child of the current node and repeat the process from step 2.
+5. Repeat: Continue this process until you have visited all nodes in the tree.
+
+DFS (In Order) Example. 
+
+                    A
+                  / \
+                  B   C
+                / \
+                D   E
+
+1. Start at A.
+
+2. Move to B (the left child of A).
+
+3. Move to D (the left child of B).
+
+4. D has no left child, so visit D.
+
+5. D has no right child, so go back to B.
+
+6. Visit B.
+
+7. Move to E (the right child of B).
+
+8. E has no left child, so visit E.
+
+9. E has no right child, so go back to A.
+
+10. Visit A.
+
+11.  Move to C (the right child of A).
+
+12. C has no left child, so visit C.
+
+13. C has no right child, so you’re done.

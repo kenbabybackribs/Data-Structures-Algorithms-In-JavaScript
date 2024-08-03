@@ -1,0 +1,103 @@
+Graph - non-linear data structure that models relationships between objects. It consist of two main components Vertices(Nodes) & Edges
+
+--------------------------------------------------
+
+Vertices (Nodes) - Represent the individual entities within the graph
+
+--------------------------------------------------
+
+Edges -  connect vertices, signifying a relationship or connection between them
+
+--------------------------------------------------
+
+Adjacency Matrix Basics. 
+
+            Matrix Size: 
+            
+            The adjacency matrix is an N x N matrix where N  is the number of nodes in the graph. Each cell in the matrix represents a possible edge between nodes..
+
+                                ----------------------------            
+
+Matrix Values:
+
+            For Unweighted Graphs: The matrix entry is 1 if there's an edge between the nodes, and 0 otherwise.
+
+            For Weighted Graphs: The matrix entry is the weight of the edge if it exists, and some indicator of no edge (e.g., 0, Infinity) otherwise.
+
+                                ----------------------------   
+
+
+Adjacency Matrix Example. 
+            Consider a graph with 4 nodes and the following edges:
+
+                                            1  2  3  4
+                                        1 [ 0  1  1  0 ]
+                                        2 [ 1  0  0  1 ]
+                                        3 [ 1  0  0  1 ]
+                                        4 [ 0  1  1  0 ]
+           
+Node 1 is connected to Node 2
+
+Node 1 is connected to Node 3
+
+Node 2 is connected to Node 4
+
+Node 3 is connected to Node 4
+
+
+                                      A
+                                    / \
+                                 E     B
+                                 |        |
+                               D-----C
+
+    A     B    C    D     E
+----------------------
+A | 0  | 1  | 0   | 0   | 1  
+----------------------
+B | 1  | 0  | 1  | 0   | 0 
+----------------------
+C |  0 |  1 |  0 | 1  |  0
+----------------------
+D |  0 |  0 | 1  | 0  | 1
+----------------------
+E |  1 |  0 | 0  |  1 | 0  
+----------------------
+
+The 0's Indicate there is no connection between verticies, and the 1's represent the eges (connections) between vertices                        
+
+-----------------------------------------------------------
+
+Adjacency List -  a way to represent a graph. Each node (or vertex) in the graph has a list of nodes (or vertices) to which it is directly connected. This representation is useful for efficiently storing sparse graphs and performing operations like traversal.
+
+
+Adjacency List Example. 
+
+                                        A
+                                        / \
+                                        B   C
+                                        \ / \
+                                        D   E
+
+The adjacency list for this graph would look like:
+
+A: [B, C]
+B: [A, D]
+C: [A, D, E]
+D: [B, C]
+E: [C]
+
+Explanation
+
+Node A is connected to nodes B and C.
+
+Node B is connected to nodes A and D.
+
+Node C is connected to nodes A, D, and E.
+
+Node D is connected to nodes B and C.
+
+Node E is connected ot node C
+
+
+

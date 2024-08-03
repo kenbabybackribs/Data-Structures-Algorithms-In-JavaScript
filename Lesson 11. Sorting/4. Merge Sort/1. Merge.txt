@@ -1,0 +1,59 @@
+Merge Sort -  divide-and-conquer sorting algorithm that works by dividing the list into smaller sublists, sorting each sublist, and then merging the sorted sublists to produce the final sorted list. It is known for its efficiency and is particularly useful for large datasets.
+
+-----------------------------------------
+
+How Merge Sort Works:
+
+1. Divide: Split the unsorted list into roughly two equal halves until each sublist contains only one element.
+
+2. Conquer: Recursively sort each sublist.
+
+3. Combine (Merge): Merge the sorted sublists to produce the final sorted list.
+
+-----------------------------------------
+
+Merge Sort Example. 
+
+1. Divide:
+
+1. Split the list into two halves: [38, 27, 43, 3] and [9, 82, 10].
+
+2. Continue splitting each half:
+
+        3. [38, 27, 43, 3] → [38, 27] and [43, 3]
+
+        4. [38, 27] → [38] and [27]
+
+        4. [43, 3] → [43] and [3]
+
+        5. [9, 82, 10] → [9] and [82, 10]
+
+        6. [82, 10] → [82] and [10]
+
+
+
+2. Conquer (Sort):
+
+        1. Since each sublist is now a single element, they are considered sorted.
+
+
+
+3. Combine (Merge):
+
+        1. Merge [38] and [27] to get [27, 38].
+
+        2. Merge [43] and [3] to get [3, 43].
+
+        3. Merge [82] and [10] to get [10, 82].
+
+        4. Merge [9] and [10, 82] to get [9, 10, 82].
+
+        5. Finally, merge [27, 38] and [3, 9, 10, 43, 82]:
+
+        6. Compare the first elements of both lists: 3 is smaller than 27, so take 3.
+
+        7. Compare 27 and 9: 9 is smaller, so take 9.
+
+        8. Continue this process until all elements are merged.
+
+9. The final sorted list is [3, 9, 10, 27, 38, 43, 82].
