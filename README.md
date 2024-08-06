@@ -7,7 +7,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/igoplusultra/Data-Structures-Algorithms-In-JavaScript)](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/stargazers)
 [![GitHub license](https://img.shields.io/github/license/igoplusultra/Data-Structures-Algorithms-In-JavaScript)](https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript/blob/master/LICENSE)
 
-Welcome to the **Data Structures & Algorithms in JavaScript** repository, course by **[HuXn WebDev](https://www.youtube.com/@huxnwebdev)**, and very thorough notes take by **Keandre Miller** This repository offers a **comprehensive, in-depth guide** designed to master the core data structures and algorithms crucial for technical excellence in JavaScript.
+Welcome to the **Data Structures & Algorithms in JavaScript** repository, course by **[Keandre Miller](https://instagram.com/capchroniclesss)**. This repository offers a **comprehensive, in-depth guide** designed to master the core data structures and algorithms crucial for technical excellence in JavaScript.
 
 ### 🍻 Why This Repository?
 
