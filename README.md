@@ -137,7 +137,7 @@ Clone the repository to your local machine using Git:
 
 ```bash
 
-git clone https://github.com/igoplusultra/Data-Structures-Algorithms-In-JavaScript.git
+git clone https://github.com/kenbabybackribs/Data-Structures-Algorithms-In-JavaScript.git
 
 ```
 
